@@ -39,15 +39,22 @@ El sistema de tipos comunes tiene una gran importancia en la creación de aplica
       **float**: número real de 32 bits.  
       **double**: número real de 64 bits.
 
+- **Decimal:** Números decimales con alta precisión en base 10 (128 bits), ideal en finanzas. Sufijo m (ej: 19.95m).
+  
 - **Lógico o booleano**: Es un tipo especial de datos, muy utilizado en programación y que solamente puede tomar el valor cierto o falso.  
   Se definen con la palabra reservada **bool**, y solo pueden tomar el valor **true** o **false**.
 
 - **Carácter**: Un dato de tipo carácter contiene un solo carácter Unicode.  
   Se definen con la palabra reservada char y representa a los caracteres contenidos en el código Unicode. 
 
-- Cadena de caracteres o string: Se definen con la palabra reservada **string**, y se representan entre comillas dobles.  
-   Un ejemplo de valor de tipo string podría ser el nombre de una persona: 
-“David González”
+- **Cadena de caracteres o string:** Se definen con la palabra reservada **string**, y se representan entre comillas dobles.  
+   Un ejemplo de valor de tipo string podría ser el nombre de una persona: “David González”
+
+- **Enumerado (enum):** Conjunto de constantes identificadas con nombre, basadas en enteros.
+  Ejemplo: 
+  ```
+  enum Estacion { Primavera, Verano, Otoño, Invierno};
+  ```
 
 ### Ejemplo. ¿Qué tipos de datos se podrían utilizar para los siguientes conceptos?:
 
